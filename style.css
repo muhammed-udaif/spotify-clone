@@ -16,7 +16,7 @@
     src: url(./font-family/SpotifyMixUITitleVariable-8769ccfde3379b7ebcadd9529b49d0cc.woff2) format(woff2);
 }
 body, button, input, select, textarea{
-    font-family: 'font-1';
+    /* font-family: 'font-1'; */
 }
 body{
     background-color: #121212;
@@ -25,8 +25,10 @@ body{
     height: 100%;
     text-decoration: none;
     line-height: normal;
-    
-
+}
+nav{
+    display: block;
+    unicode-bidi: isolate;
 }
 * {
     box-sizing: border-box;
@@ -282,6 +284,12 @@ body{
     .under-pic-2{
         overflow-wrap: anywhere;
     }
+    .item-1-1{
+        overflow-wrap: anywhere;
+    }
+    .global{
+        overflow-wrap: anywhere;
+    }
 }
 .jhol-acoustic{
     display: -webkit-box;
@@ -291,4 +299,165 @@ body{
 }
 #start{
     display: none;
+}
+.footer-section{
+    text-align: start;
+}
+.nav-bar{
+    background-color: rgb(18, 18, 18);
+    padding: 8px 16px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer-contents{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+.foot-sec-contents{
+    display: flex;
+    flex-flow: column wrap;
+}
+.foot-1-content{
+    margin-bottom: 32px;
+}
+.item-1{
+    padding-inline-start: 0px;
+    /* padding-inline: 32px 0px; */
+    margin-block: 0px;
+    overflow-wrap: break-word;
+}
+.company{
+    color: rgb(255, 255, 255);
+    margin-block: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:  'font-1';
+}
+.item-1-1{
+    color: #b3b3b3;
+    font-weight: 700;
+    font-family:'font-2';
+    font-size: 0.6875rem;
+    display: block;
+    align-items: center;
+    -webkit-box-align: center;
+    margin: 8px 0px;
+    width: fit-content;
+}
+.item-1-2{
+    margin-block: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:'font-2' ;
+    padding-block-end: 8px;
+    color: inherit;
+}
+.icons{
+    margin-bottom: 40px;
+}
+.icons-1{
+    display: inline;
+    padding-right: 12px;
+}
+.insta-ion{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    color:rgb(179, 179, 179) ;
+    display: inline-flex;
+}
+.horizondal-row{
+    border-color: rgba(255, 255, 255, 0.1);
+    margin-block-start: 0px;
+    border: 0px;
+    border-block-start: 1px solid rgba(255, 255, 255, 0.1);
+    margin-block-start: 0px;
+    margin-block-end: 22px;
+}
+.bottom-footer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.bottom-con-1{
+    display: flex;
+    flex-flow: wrap;
+}
+.bottom-con-1-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont-1{
+    margin-right: 16px;
+}
+.new-item-1-1{
+    margin-bottom: 8px;
+    text-decoration: none;
+    /* line-height: inherit; */
+    border: none;
+    padding: 0px;
+    margin-top: 0px;
+    color:rgb(179, 179, 179) ;
+}
+.item-1-2-new{
+    margin-block: 0px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: 'font-2';
+    color: inherit;
+}
+.number{
+    flex: 0px 0px auto;
+    display: flex;
+    flex-flow: row;
+    align-items: end;
+    color: rgb(179, 179, 179);
+}
+.number-1{
+    padding-right: 16px;
+}
+.spotify-ab{
+    margin-block: 0px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family:'font-2' ;
+    color: inherit;
+}
+.global-buton{
+    padding-top: 16px;
+}
+.global{
+    padding-inline-start: 36px;
+    font-weight: 700;
+    font-family:'font-1' ;
+    font-size: 0.8125rem;
+    min-block-size: 32px;
+    padding-block: 4px;
+    padding-right: 16px;
+    border-radius:9999px ;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid rgb(124, 124, 124);
+    color: rgb(255, 255, 255);
+    min-inline-size: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    will-change: transform;
+}
+/*  */
+.for-global-icon{
+    inset-inline-start: 12px;
+    display: flex;
+    position: absolute;
+}
+.margin-section{
+    margin-bottom: 10px;
 }
